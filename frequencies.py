@@ -2,7 +2,7 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def frequencies(items):
-    frequencies = {}
+    frequencies_dict = {}
     for item in items:
-        frequencies[str(item)] = frequencies.get(str(item), 0) + 1
-    return frequencies
+        frequencies_dict[str(item)] = frequencies_dict.get(str(item), 0) + 1
+    return frequencies_dict
